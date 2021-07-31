@@ -1,0 +1,242 @@
+body{
+
+    margin: 0%;
+    padding: 0%;
+}
+
+#lol
+{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+    background-color: blanchedalmond;  
+}
+
+.sticky {
+    position: sticky;
+    top: 0;
+    width: 100%;
+  }
+
+#header{
+    display: flex;
+    justify-content: space-around;
+    width: 300px;
+    
+}
+
+#header i{
+    margin: auto;
+    font-size: 30px;
+}
+
+#nav-bar
+{
+    list-style: none;
+    padding-left: 0%;
+    font-family: sans-serif;
+    margin-right: 40px;
+}
+
+#nav-bar li{
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    display: inline-block;
+    margin: 0px 25px 0px 25px;
+}
+
+#nav-bar a{
+
+    text-decoration: none;
+    color: rgb(109, 103, 103);
+    
+}
+
+#nav-bar li a:hover
+{
+    color: darkgray;
+    text-decoration: none;
+    transition: color 0.5s;
+
+}
+
+#title
+{
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 900;
+    margin-top: 40px;
+
+}
+#box{
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.form-control{
+    width: 250px;
+    height: 20px;
+}
+
+#bold{
+    text-align: center;
+    margin-top: 20px;
+    }
+
+#get{
+    background-color: chartreuse;
+    font-weight: 900;
+    width: 125px;
+    height: 30px;
+    border-radius: 6px;
+    border: none;
+}
+
+#get:hover
+{
+    background-color: darkgray;
+    text-decoration: none;
+    transition: color 0.5s;
+    cursor: pointer;
+}
+
+#main{
+    font-size: 300%;
+    width: 70vw;
+    margin: auto;
+    margin-top: 60px;
+}
+
+.icon{
+    color: orange;
+    display: flex;
+    align-items: center;
+    padding-bottom: 0%;
+}
+
+.icon p{
+    color:black;
+    font-family: sans-serif;
+    font-size: 30px;
+    margin-top: 0%;
+}
+
+#text{
+    font-size: 18px;
+    color: black;
+    margin-left: 150px;
+    font-family: sans-serif;
+    font-weight: 600;
+    
+}
+
+#text p{
+    font-size: 15px;
+}
+
+#video{
+    text-align: center;
+    margin-top: 80px;
+}
+
+#card{
+    margin: auto;
+    margin-top: 5%;
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+   justify-content: space-around;
+}
+
+#Pricing {
+    margin: auto;
+    margin-top: 30px;
+    width: 60%;
+  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .subprice {
+    width: 250px;
+    height: 330px;
+    border: 2px solid black;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+
+.subprice h3{
+    margin-top: 0%;
+    padding-top: 0%;
+    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
+    font-family: sans-serif;
+    background-color: cadetblue;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.subprice p{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.subprice h4{
+    text-align: center;
+    font-size: 20px;
+}
+
+.subprice button{
+    text-align: center;
+    margin-left: auto;
+    margin-left: auto;
+    height: 35px;
+    width: 70px;
+    font-size: 15px;
+    background-color: yellowgreen;
+    border-radius: 20%;
+}
+
+.subprice button:hover{
+    cursor: pointer;
+    background-color: aqua;
+    transition: 0.5s;
+}
+
+#footer {
+    width: 60vw;
+    min-width: 300;
+    height: 10%;
+    margin: auto;
+    background-color: palevioletred;
+  }
+  #f-bar {
+    height: auto;
+    text-align: right;
+    margin-right: 2%;
+  }
+  #f-bar ul li {
+    display: inline-block;
+    margin: 1%;
+    font-family: sans-serif;
+    font-size: 20px;
+  }
+  #f-bar ul li a {
+    text-decoration: none;
+    color: white;
+  }
+  #last p {
+    text-align: right;
+    margin-right: 3%;
+    margin-bottom: 0px;
+    padding-bottom: 20px;
+  }
+  @media screen and (max-width:600px){
+      #footer{
+          width: 100%;
+      }
+  }
